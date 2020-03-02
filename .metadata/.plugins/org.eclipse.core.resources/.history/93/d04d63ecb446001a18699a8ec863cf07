@@ -1,0 +1,21 @@
+package br.senai.sp.jandira.odonto.resource;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.senai.sp.jandira.odonto.model.Dentista;
+
+//è praticamente uma controller
+
+@RestController
+@RequestMapping("/odonto")
+public class DentistaResource {
+	
+	public List<Dentista> getDentistas()
+	{
+		return null;
+	}
+
+}

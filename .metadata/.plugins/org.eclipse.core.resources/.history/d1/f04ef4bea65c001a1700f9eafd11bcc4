@@ -1,0 +1,12 @@
+package br.senai.sp.jandira.odonto.model;
+
+public class Paciente {
+
+	private Long codigo;
+	private String nome;
+	private String email;
+	private String telefone;
+	
+	
+	
+}
